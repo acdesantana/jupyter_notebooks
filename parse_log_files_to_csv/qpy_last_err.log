@@ -1,0 +1,46 @@
+SUPPORTED_64_BIT_ABIS=[Ljava.lang.String;@4997872
+BOARD=universal8890
+BOOTLOADER=G935FXXU2DRCA
+IS_TRANSLATION_ASSISTANT_ENABLED=false
+TYPE=user
+ID=NRD90M
+BRAND=samsung
+TAG=Build
+HARDWARE=samsungexynos8890
+SERIAL=ce12160c9cba530e05
+SUPPORTED_ABIS=[Ljava.lang.String;@23734c3
+CPU_ABI=armeabi-v7a
+IS_DEBUGGABLE=false
+RADIO=G935FXXU2DRC7
+MANUFACTURER=samsung
+IS_EMULATOR=false
+SUPPORTED_32_BIT_ABIS=[Ljava.lang.String;@4f6d17d
+TAGS=release-keys
+CPU_ABI2=armeabi
+IS_SYSTEM_SECURE=false
+UNKNOWN=unknown
+PERMISSIONS_REVIEW_REQUIRED=false
+USER=dpi
+FINGERPRINT=samsung/hero2ltexx/hero2lte:7.0/NRD90M/G935FXXU2DRCA:user/release-keys
+HOST=SWDG5221
+PRODUCT=hero2ltexx
+DISPLAY=NRD90M.G935FXXU2DRCA
+MODEL=SM-G935F
+DEVICE=hero2lte
+IS_SECURE=false
+java.lang.NullPointerException
+	at java.io.File.<init>(File.java:262)
+	at org.qpython.qpy.texteditor.EditorActivity.lambda$newContent$14$EditorActivity(EditorActivity.java:859)
+	at org.qpython.qpy.texteditor.EditorActivity$$Lambda$10.OnClickListener(Unknown Source)
+	at org.qpython.qpy.texteditor.ui.view.EnterDialog.lambda$setConfirmListener$1$EnterDialog(EnterDialog.java:71)
+	at org.qpython.qpy.texteditor.ui.view.EnterDialog$$Lambda$1.onClick(Unknown Source)
+	at android.view.View.performClick(View.java:6213)
+	at android.widget.TextView.performClick(TextView.java:11074)
+	at android.view.View$PerformClick.run(View.java:23645)
+	at android.os.Handler.handleCallback(Handler.java:751)
+	at android.os.Handler.dispatchMessage(Handler.java:95)
+	at android.os.Looper.loop(Looper.java:154)
+	at android.app.ActivityThread.main(ActivityThread.java:6692)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java:1468)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1358)

@@ -1,0 +1,694 @@
+06-14 17:25:54.614	tUHM:TWatchManagerApplication.onCreate
+06-14 17:25:54.625	tUHM:TWatchManagerApplication.AppVersion : 2.2.20.17113061
+06-14 17:25:54.632	tUHM:SetupWizardWelcomeActivity.UHM onCreate() Intent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.samsung.android.app.watchmanager/.setupwizard.SetupWizardWelcomeActivity launchParam=MultiScreenLaunchParams { mDisplayId=0 mFlags=0 } bnds=[694,471][949,789] (has extras) }
+06-14 17:25:54.633	tUHM:SetupWizardWelcomeActivity.UHM onCreate() Bundle: null
+06-14 17:25:54.633	tUHM:SetupWizardWelcomeActivity.density [3.0], densityDpi [480], heightPixels [1920], widthPixels [1080]
+06-14 17:25:54.642	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.642	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.643	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:54.643	tUHM:HostManagerUtils.isSamsungDeviceWithCustomBinary, res [false]
+06-14 17:25:54.643	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.643	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.644	tUHM:HostManagerUtils.isMaximumPowerSavingMode, res [false]
+06-14 17:25:54.644	tUHM:SetupWizardWelcomeActivity.printDB starts
+06-14 17:25:54.644	tUHM:SetupWizardWelcomeActivity.getAllDeviceRegistryData()
+06-14 17:25:54.644	tUHM:RegistryDbManagerWithProvider.queryAllDeviceRegistryData:
+06-14 17:25:54.714	tUHM:RegistryDbManagerWithProvider.queryAllDeviceRegistryData, size = 0
+06-14 17:25:54.714	tUHM:SetupWizardWelcomeActivity.Print all device data:
+06-14 17:25:54.715	tUHM:SetupWizardWelcomeActivity.Print all device data ends
+06-14 17:25:54.715	tUHM:SetupWizardWelcomeActivity.printDB ends
+06-14 17:25:54.715	tUHM:HostManagerUtils.setStatusBarOpenByNotification(com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661)
+06-14 17:25:54.716	tUHM:SetupWizardWelcomeActivity.isFromPlugin = false, isViaConnectActivity = false, isForceUpdateCheck = false
+06-14 17:25:54.719	tUHM:WearableDeviceController.WearableDeviceController
+06-14 17:25:54.721	tUHM:InstallationUtils.isLocalInstallation()  returns :false
+06-14 17:25:54.721	tUHM:UpdateManager.isUpdateNeeded(), mForceUpdateCheck [false]
+06-14 17:25:54.721	tUHM:UpdateUtil.getIsUpdating(com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661)
+06-14 17:25:54.722	tUHM:UpdateUtil.PreviouslyUpdatedAt = 0, currentTimeInMillis = 1529007954722, difference = 1529007954722
+06-14 17:25:54.722	tUHM:HostManagerUtils.isfrequentCheckNeeded()
+06-14 17:25:54.723	tUHM:HostManagerUtils.isfrequentCheckNeeded(): isFrequentUpdate = [false]
+06-14 17:25:54.723	tUHM:UpdateManager.thresholdTime = 43200000, difference = 1529007954722
+06-14 17:25:54.723	tUHM:UpdateManager.isUpdateNeeded()-->result = true
+06-14 17:25:54.723	tUHM:UpdateManager.init()
+06-14 17:25:54.724	tUHM:UpdateManager.[UHM] Current version code = 2117113061, Previous version code = -1
+06-14 17:25:54.724	tUHM:UpdateManager.Installer package name com.android.vending
+06-14 17:25:54.724	tUHM:UpdateManager.Setting NEED_TO_UPDATE to false; Let's check the Update again.
+06-14 17:25:54.725	tUHM:UpdateManager.deleteTempFilesOnUpdate()
+06-14 17:25:54.725	tUHM:UpdateUtil.getPathToDownload(com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661)
+06-14 17:25:54.726	tUHM:UpdateUtil.getPathToDownload, file length = 0
+06-14 17:25:54.726	tUHM:FileManager.delete(/data/user/0/com.samsung.android.app.watchmanager/files/Download/Update)
+06-14 17:25:54.726	tUHM:FileManager.Invalid deletion at: /data/user/0/com.samsung.android.app.watchmanager/files/Download/Update
+06-14 17:25:54.726	tUHM:FileManager.delete(/data/user/0/com.samsung.android.app.watchmanager/files/Download/Update)-->result = false
+06-14 17:25:54.728	tUHM:FileManager.delete(/storage/emulated/0/Download/Gear)
+06-14 17:25:54.729	tUHM:FileManager.Invalid deletion at: /storage/emulated/0/Download/Gear
+06-14 17:25:54.729	tUHM:FileManager.delete(/storage/emulated/0/Download/Gear)-->result = false
+06-14 17:25:54.729	tUHM:UpdateManager.checkUHMSelfUpdate()
+06-14 17:25:54.729	tUHM:UpdateUtil.getIsUHMSelfUpdate(com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661)
+06-14 17:25:54.730	tUHM:UpdateManager.update::checkUHMSelfUpdate()::is_plugin_update_remain = false
+06-14 17:25:54.730	tUHM:UpdateManager.checkUHMSelfUpdate(), isUHMUpdated [false]
+06-14 17:25:54.731	tUHM:UpdateUtil.getPathToDownload(com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661)
+06-14 17:25:54.731	tUHM:UpdateUtil.context is null
+06-14 17:25:54.731	tUHM:FileManager.delete(/data/user/0/com.samsung.android.app.watchmanager/files/Download/Update)
+06-14 17:25:54.731	tUHM:FileManager.Invalid deletion at: /data/user/0/com.samsung.android.app.watchmanager/files/Download/Update
+06-14 17:25:54.731	tUHM:FileManager.delete(/data/user/0/com.samsung.android.app.watchmanager/files/Download/Update)-->result = false
+06-14 17:25:54.732	tUHM:NetworkUsageManager.show starts
+06-14 17:25:54.732	tUHM:NetworkUsageManager.showNetworkDialog starts
+06-14 17:25:54.732	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.732	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.733	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:54.733	tUHM:HostManagerUtils. isSamsungDevice() MANUFACTURER :samsung return :true
+06-14 17:25:54.733	tUHM:HostManagerUtils.isSamsungChinaModel, res [false], salesCode [ZTO]
+06-14 17:25:54.733	tUHM:NetworkUsageManager.Can not show Dialog for non-Samsung Chinese models
+06-14 17:25:54.733	tUHM:NetworkUsageManager.continueProcess starts
+06-14 17:25:54.733	tUHM:SetupWizardWelcomeActivity.NetworkUsageManager :: onContinue
+06-14 17:25:54.734	tUHM:SetupWizardWelcomeActivity.UHM init()
+06-14 17:25:54.734	tUHM:AutoSwitchIntentService. isRunning() returns : false
+06-14 17:25:54.734	tUHM:SetupWizardWelcomeActivity.checkLastLaunchedDeviceState()
+06-14 17:25:54.734	tUHM:RegistryDbManagerWithProvider.queryLastLaunchDeviceRegistryData
+06-14 17:25:54.738	tUHM:RegistryDbManagerWithProvider.queryLastLaunchDeviceRegistryData, size = 0
+06-14 17:25:54.738	tUHM:SetupWizardWelcomeActivity.getAllDeviceRegistryData()
+06-14 17:25:54.738	tUHM:SetupWizardWelcomeActivity.isFromWearableInstaller() has(BT_ADD_FROM_STUB) = false, has(MODEL_NAME) = false
+06-14 17:25:54.738	tUHM:SetupWizardWelcomeActivity. isFromWearableInstaller() return  false
+06-14 17:25:54.738	tUHM:SetupWizardWelcomeActivity.isFromStubByNFC() return :false
+06-14 17:25:54.739	tUHM:SetupWizardWelcomeActivity.nfc::init() isFromWearableInstaller = false
+06-14 17:25:54.739	tUHM:SetupWizardWelcomeActivity.nfc::init() isFromStubByNFC = false
+06-14 17:25:54.739	tUHM:SetupWizardWelcomeActivity.nfc::init() isFromSamsungApps = false
+06-14 17:25:54.739	tUHM:SetupWizardWelcomeActivity.nfc::init() isFromUpdateNotification = false
+06-14 17:25:54.739	tUHM:UpdateManager.isUpdateCheckNeeded-->true, isFirstCheck-->true
+06-14 17:25:54.739	tUHM:UpdateUtil.getIsNotifiedFlag(com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661)
+06-14 17:25:54.740	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:54.740	tUHM:InstallationUtils.isInstallFromPlaystore()  return :false
+06-14 17:25:54.740	tUHM:UpdateManager.isSamsungServer-->true, isUpdateChecked-->false
+06-14 17:25:54.740	tUHM:UpdateManager.checkForUpdate()
+06-14 17:25:54.741	tUHM:UpdateManager.Going to check for updates...
+06-14 17:25:54.741	tUHM:UpdateUtil.isUpdateExist, context [com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661]
+06-14 17:25:54.741	tUHM:UpdateUtil.isUpdateExist, sub-res [false]
+06-14 17:25:54.741	tUHM:UpdateUtil.isUpdateExist, res [false]
+06-14 17:25:54.741	tUHM:UpdateManager.Update was checked previously and update was available: false
+06-14 17:25:54.742	tUHM:HostManagerUtils.check for network availability, context [com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661]
+06-14 17:25:54.743	tUHM:HostManagerUtils.isNetworkAvailable, res [true]
+06-14 17:25:54.743	tUHM:SetupWizardWelcomeActivity.onStartCheckingUpdate
+06-14 17:25:54.743	tUHM:SetupWizardWelcomeActivity.updateFragment() fragmentType:1 bundle:null, forceSet:false
+06-14 17:25:54.743	tUHM:SetupWizardWelcomeActivity.getCurrentFragment() :null
+06-14 17:25:54.744	tUHM:UpdateChecker.startUpdateCheckThread()
+06-14 17:25:54.744	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:54.745	tUHM:InstallationUtils.isInstallFromPlaystore()  return :false
+06-14 17:25:54.745	tUHM:UpdateChecker.makePackageUpdateString()
+06-14 17:25:54.745	tUHM:UpdateChecker.Starting Sync...
+06-14 17:25:54.745	tUHM:GearRulesManager.getInstance()
+06-14 17:25:54.746	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.746	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.746	tUHM:GearRulesManager. mContext :com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.746	tUHM:UpdateChecker.SyncCompleteCallBack(com.samsung.android.app.twatchmanager.update.UpdateChecker@12279d)
+06-14 17:25:54.746	tUHM:GearRulesManager.syncDeviceInfo () syncType :2 syncCallback:com.samsung.android.app.twatchmanager.update.UpdateChecker$SyncCompleteCallBack@3ae412
+06-14 17:25:54.747	tUHM:UpdateChecker.reading Rule File from MSC server
+06-14 17:25:54.747	tUHM:GearRulesManager.syncFromMSCServer()
+06-14 17:25:54.747	tUHM:UpdateChecker.makeHandlerInstance, mCheckResponseHandler [null]
+06-14 17:25:54.747	tUHM:GearRulesManager. getInputStream()
+06-14 17:25:54.748	tUHM:UpdateChecker.No package added for update checking.
+06-14 17:25:54.748	tUHM:GearRulesManager.getInputStream() let sync from asset
+06-14 17:25:54.748	tUHM:NetworkUsageManager.continueProcess ends
+06-14 17:25:54.748	tUHM:SetupWizardWelcomeActivity.setAppBadge() packageName :com.samsung.android.app.watchmanager
+06-14 17:25:54.748	BaseRulesParser.getRulesXMLVersion()
+06-14 17:25:54.748	tUHM:SetupWizardWelcomeActivity.setAppBadge() className :com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity
+06-14 17:25:54.749	BaseRulesParser. tagName :rules
+06-14 17:25:54.749	BaseRulesParser. tagName :gear-info
+06-14 17:25:54.749	tUHM:SetupWizardWelcomeActivity.onCreate() ends.
+06-14 17:25:54.749	BaseRulesParser.getRulesXMLVersion() tempVersion:2.08
+06-14 17:25:54.749	tUHM:LoadingGearFragment.onCreateView
+06-14 17:25:54.750	BaseRulesParser.getRulesXMLVersion() MajorVersion: 2 return version:2.08
+06-14 17:25:54.750	tUHM:GearRulesManager.isUpdateNeeded() newVersion: 2.08
+06-14 17:25:54.750	tUHM:GearRulesManager.isUpdateNeeded() newVersion.lenght: 2
+06-14 17:25:54.751	tUHM:GearRulesManager. isUpdateNeeded()  newVersion[0]:2 currentVersion[0]:0
+06-14 17:25:54.751	tUHM:GearRulesManager.isUpdateNeeded() returns:true
+06-14 17:25:54.752	tUHM:GearRulesManager.updateRulesCache() writing to local rules.xml
+06-14 17:25:54.752	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.752	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.753	tUHM:GearRulesManager.processRulesFile() synType: 2 xmlVersion: 2.08
+06-14 17:25:54.753	RulesParser. parseAndStoreModuleInfo 
+06-14 17:25:54.753	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.753	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.754	RulesParser. tagName :rules
+06-14 17:25:54.754	RulesParser. tagName :gear-info
+06-14 17:25:54.754	RulesParser.parseAndStoreModuleInfo() parse Version:2.08
+06-14 17:25:54.755	RulesParser.parseGearInfo()
+06-14 17:25:54.755	RulesParser.parserModuleInfo() 
+06-14 17:25:54.755	RulesParser2.parseDevices()
+06-14 17:25:54.755	RulesParser.parseDeviceItem()
+06-14 17:25:54.756	RulesParser. parseAdditionalPackages() : 
+06-14 17:25:54.756	RulesParser.parseAdditionalPackageItem
+06-14 17:25:54.756	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.756	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.757	RulesParser.parseGearInfo() ModuleInfo :com.samsung.android.app.twatchmanager.model.ModuleInfo@57fad55
+06-14 17:25:54.757	RulesParser.parserModuleInfo() 
+06-14 17:25:54.757	RulesParser2.parseDevices()
+06-14 17:25:54.757	RulesParser.parseDeviceItem()
+06-14 17:25:54.757	RulesParser.parseDeviceItem()
+06-14 17:25:54.758	RulesParser.parseDeviceItem()
+06-14 17:25:54.758	RulesParser.parseDeviceItem()
+06-14 17:25:54.758	RulesParser. parseAdditionalPackages() : 
+06-14 17:25:54.758	tUHM:RegistryDbManagerWithProvider.queryAllDeviceRegistryData:
+06-14 17:25:54.758	RulesParser.parseAdditionalPackageItem
+06-14 17:25:54.759	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.759	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.759	RulesParser.parseGearInfo() ModuleInfo :com.samsung.android.app.twatchmanager.model.ModuleInfo@c3afb1a
+06-14 17:25:54.759	RulesParser.parserModuleInfo() 
+06-14 17:25:54.759	RulesParser2.parseDevices()
+06-14 17:25:54.760	RulesParser.parseDeviceItem()
+06-14 17:25:54.760	RulesParser.parseGearInfo() ModuleInfo :com.samsung.android.app.twatchmanager.model.ModuleInfo@dbb064b
+06-14 17:25:54.760	RulesParser.parserModuleInfo() 
+06-14 17:25:54.760	RulesParser2.parseDevices()
+06-14 17:25:54.760	RulesParser.parseDeviceItem()
+06-14 17:25:54.761	RulesParser.parseDeviceItem()
+06-14 17:25:54.761	RulesParser.parseDeviceItem()
+06-14 17:25:54.761	RulesParser.parseDeviceItem()
+06-14 17:25:54.761	RulesParser.parseDeviceItem()
+06-14 17:25:54.762	RulesParser.parseDeviceItem()
+06-14 17:25:54.762	RulesParser.parseDeviceItem()
+06-14 17:25:54.762	RulesParser. parseAdditionalPackages() : 
+06-14 17:25:54.762	RulesParser.parseAdditionalPackageItem
+06-14 17:25:54.762	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.763	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.763	RulesParser.parseGearInfo() ModuleInfo :com.samsung.android.app.twatchmanager.model.ModuleInfo@d8eb828
+06-14 17:25:54.763	RulesParser.parserModuleInfo() 
+06-14 17:25:54.763	tUHM:RegistryDbManagerWithProvider.queryAllDeviceRegistryData, size = 0
+06-14 17:25:54.763	RulesParser2.parseDevices()
+06-14 17:25:54.764	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.764	RulesParser.parseDeviceItem()
+06-14 17:25:54.764	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.764	RulesParser.parseGearInfo() ModuleInfo :com.samsung.android.app.twatchmanager.model.ModuleInfo@8d0c941
+06-14 17:25:54.764	RulesParser.parserModuleInfo() 
+06-14 17:25:54.764	RulesParser2.parseDevices()
+06-14 17:25:54.765	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:54.765	RulesParser.parseDeviceItem()
+06-14 17:25:54.765	tUHM:HostManagerUtils. isSamsungDevice() MANUFACTURER :samsung return :true
+06-14 17:25:54.765	RulesParser.parseDeviceItem()
+06-14 17:25:54.765	tUHM:LoadingGearFragment.onViewCreated()
+06-14 17:25:54.765	RulesParser. parseAdditionalPackages() : 
+06-14 17:25:54.766	RulesParser.parseAdditionalPackageItem
+06-14 17:25:54.766	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.766	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.766	RulesParser.parseGearInfo() ModuleInfo :com.samsung.android.app.twatchmanager.model.ModuleInfo@77daee6
+06-14 17:25:54.767	RulesParser.parserModuleInfo() 
+06-14 17:25:54.767	RulesParser2.parseDevices()
+06-14 17:25:54.767	RulesParser.parseDeviceItem()
+06-14 17:25:54.767	tUHM:SetupWizardWelcomeActivity.onStart
+06-14 17:25:54.767	RulesParser.parseDeviceItem()
+06-14 17:25:54.767	RulesParser.parseDeviceItem()
+06-14 17:25:54.768	RulesParser.parseDeviceItem()
+06-14 17:25:54.768	RulesParser.parseGearInfo() ModuleInfo :com.samsung.android.app.twatchmanager.model.ModuleInfo@7b1bc27
+06-14 17:25:54.768	RulesParser.parserModuleInfo() 
+06-14 17:25:54.768	RulesParser2.parseDevices()
+06-14 17:25:54.769	RulesParser.parseDeviceItem()
+06-14 17:25:54.769	RulesParser.parseDeviceItem()
+06-14 17:25:54.769	RulesParser.parseGearInfo() ModuleInfo :com.samsung.android.app.twatchmanager.model.ModuleInfo@b2b2ed4
+06-14 17:25:54.769	tUHM:SetupWizardWelcomeActivity.onResume()
+06-14 17:25:54.769	RulesParser.parserModuleInfo() 
+06-14 17:25:54.770	RulesParser2.parseDevices()
+06-14 17:25:54.770	RulesParser.parseDeviceItem()
+06-14 17:25:54.770	RulesParser.parseDeviceItem()
+06-14 17:25:54.770	RulesParser.parseGearInfo() ModuleInfo :com.samsung.android.app.twatchmanager.model.ModuleInfo@59fb87d
+06-14 17:25:54.770	RulesParser.parserCommonInfo() 
+06-14 17:25:54.771	RulesParser.parseCommonInfoPackages()
+06-14 17:25:54.771	RulesParser.parseCommonPackageItem() 
+06-14 17:25:54.771	RulesParser.parseCommonPackageItem() 
+06-14 17:25:54.772	tUHM:GearRulesManager. moduleInfoList: [com.samsung.android.app.twatchmanager.model.ModuleInfo@57fad55, com.samsung.android.app.twatchmanager.model.ModuleInfo@c3afb1a, com.samsung.android.app.twatchmanager.model.ModuleInfo@dbb064b, com.samsung.android.app.twatchmanager.model.ModuleInfo@d8eb828, com.samsung.android.app.twatchmanager.model.ModuleInfo@8d0c941, com.samsung.android.app.twatchmanager.model.ModuleInfo@77daee6, com.samsung.android.app.twatchmanager.model.ModuleInfo@7b1bc27, com.samsung.android.app.twatchmanager.model.ModuleInfo@b2b2ed4, com.samsung.android.app.twatchmanager.model.ModuleInfo@59fb87d]
+06-14 17:25:54.772	tUHM:GearRulesManager. groupGearSetMap.put(GEAR 1 , [GALAXY GEAR]
+06-14 17:25:54.773	tUHM:GearRulesManager.GearInfo :deviceName: Galaxy Gear
+containerPackage: com.samsung.android.gear1module
+pluginPackage: com.samsung.android.gear1plugin
+supportTablet: true
+supportNonSamsung: false
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.773	tUHM:GearRulesManager. groupGearSetMap.put(GEAR 2 , [GEAR]
+06-14 17:25:54.773	tUHM:GearRulesManager.GearInfo :deviceName: Gear
+containerPackage: com.samsung.android.gear2smodule
+pluginPackage: com.samsung.android.gear2plugin
+supportTablet: true
+supportNonSamsung: false
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.773	tUHM:GearRulesManager.GearInfo :deviceName: Gear 2
+containerPackage: com.samsung.android.gear2smodule
+pluginPackage: com.samsung.android.gear2plugin
+supportTablet: true
+supportNonSamsung: false
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.774	tUHM:GearRulesManager.GearInfo :deviceName: Gear 2 Neo
+containerPackage: com.samsung.android.gear2smodule
+pluginPackage: com.samsung.android.gear2plugin
+supportTablet: true
+supportNonSamsung: false
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.774	tUHM:GearRulesManager.GearInfo :deviceName: Gear 2 Lite
+containerPackage: com.samsung.android.gear2smodule
+pluginPackage: com.samsung.android.gear2plugin
+supportTablet: true
+supportNonSamsung: false
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.774	tUHM:GearRulesManager. groupGearSetMap.put(GEAR S , [GEAR S]
+06-14 17:25:54.774	tUHM:GearRulesManager.GearInfo :deviceName: Gear S
+containerPackage: com.samsung.android.gear2smodule
+pluginPackage: com.samsung.android.gear2plugin
+supportTablet: false
+supportNonSamsung: false
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.775	tUHM:GearRulesManager. groupGearSetMap.put(GEAR S2 , [GEAR O]
+06-14 17:25:54.775	tUHM:GearRulesManager.GearInfo :deviceName: Gear O
+containerPackage: com.samsung.android.gearoplugin
+pluginPackage: com.samsung.android.gearoplugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.775	tUHM:GearRulesManager.GearInfo :deviceName: Gear A
+containerPackage: com.samsung.android.gearoplugin
+pluginPackage: com.samsung.android.gearoplugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.775	tUHM:GearRulesManager.GearInfo :deviceName: Gear S2
+containerPackage: com.samsung.android.gearoplugin
+pluginPackage: com.samsung.android.gearoplugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.776	tUHM:GearRulesManager. groupGearSetMap.put(GEAR S3 , [GEAR C]
+06-14 17:25:54.776	tUHM:GearRulesManager.GearInfo :deviceName: Gear C
+containerPackage: com.samsung.android.gearoplugin
+pluginPackage: com.samsung.android.gearoplugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.776	tUHM:GearRulesManager.GearInfo :deviceName: Gear S3
+containerPackage: com.samsung.android.gearoplugin
+pluginPackage: com.samsung.android.gearoplugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.776	tUHM:GearRulesManager. groupGearSetMap.put(GEAR SPORT , [GEAR POP]
+06-14 17:25:54.777	tUHM:GearRulesManager.GearInfo :deviceName: Gear POP
+containerPackage: com.samsung.android.gearoplugin
+pluginPackage: com.samsung.android.gearoplugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.777	tUHM:GearRulesManager.GearInfo :deviceName: Gear Sport
+containerPackage: com.samsung.android.gearoplugin
+pluginPackage: com.samsung.android.gearoplugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.777	tUHM:GearRulesManager. groupGearSetMap.put(GEAR CIRCLE , [GEAR CIRCLE]
+06-14 17:25:54.777	tUHM:GearRulesManager.GearInfo :deviceName: Gear Circle
+containerPackage: null
+pluginPackage: com.samsung.android.neckletplugin
+supportTablet: false
+supportNonSamsung: false
+supportMultiConnection: true
+connectAsAudio: true
+hostMinMemory: 0MB
+requiresPairing: true
+06-14 17:25:54.778	tUHM:GearRulesManager. groupGearSetMap.put(GEAR FIT2 , [GEAR FIT2]
+06-14 17:25:54.778	tUHM:GearRulesManager.GearInfo :deviceName: Gear Fit2
+containerPackage: com.samsung.android.gearfit2plugin
+pluginPackage: com.samsung.android.gearfit2plugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.778	tUHM:GearRulesManager.GearInfo :deviceName: Gear Fit2 Pro
+containerPackage: com.samsung.android.gearfit2plugin
+pluginPackage: com.samsung.android.gearfit2plugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: true
+06-14 17:25:54.778	tUHM:GearRulesManager. groupGearSetMap.put(GEAR ICONX , [GEAR TRIATHLON M]
+06-14 17:25:54.778	tUHM:GearRulesManager.GearInfo :deviceName: Gear Triathlon M
+containerPackage: null
+pluginPackage: com.samsung.accessory.triathlonmgr
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: true
+connectAsAudio: true
+hostMinMemory: 0MB
+requiresPairing: true
+06-14 17:25:54.779	tUHM:GearRulesManager.GearInfo :deviceName: Gear Triathlon S
+containerPackage: null
+pluginPackage: com.samsung.accessory.triathlonmgr
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: true
+connectAsAudio: true
+hostMinMemory: 0MB
+requiresPairing: true
+06-14 17:25:54.779	tUHM:GearRulesManager.GearInfo :deviceName: Gear IconX R
+containerPackage: null
+pluginPackage: com.samsung.accessory.triathlonmgr
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: true
+connectAsAudio: true
+hostMinMemory: 0MB
+requiresPairing: true
+06-14 17:25:54.779	tUHM:GearRulesManager.GearInfo :deviceName: Gear IconX L
+containerPackage: null
+pluginPackage: com.samsung.accessory.triathlonmgr
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: true
+connectAsAudio: true
+hostMinMemory: 0MB
+requiresPairing: true
+06-14 17:25:54.779	tUHM:GearRulesManager.GearInfo :deviceName: Gear IconX
+containerPackage: null
+pluginPackage: com.samsung.accessory.beansmgr
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: true
+connectAsAudio: true
+hostMinMemory: 0MB
+requiresPairing: true
+06-14 17:25:54.780	tUHM:GearRulesManager.GearInfo :deviceName: Gear IconX 2
+containerPackage: null
+pluginPackage: com.samsung.accessory.beansmgr
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: true
+connectAsAudio: true
+hostMinMemory: 0MB
+requiresPairing: true
+06-14 17:25:54.780	tUHM:GearRulesManager. groupGearSetMap.put(GEAR CHIRON , [GEAR CHIRON]
+06-14 17:25:54.780	tUHM:GearRulesManager.GearInfo :deviceName: Gear Chiron
+containerPackage: null
+pluginPackage: com.samsung.android.chironplugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: false
+06-14 17:25:54.780	tUHM:GearRulesManager.GearInfo :deviceName: Samsung Gear Chiron
+containerPackage: null
+pluginPackage: com.samsung.android.chironplugin
+supportTablet: false
+supportNonSamsung: true
+supportMultiConnection: false
+connectAsAudio: false
+hostMinMemory: 1024MB
+requiresPairing: false
+06-14 17:25:54.781	tUHM:GearRulesManager.savePreferences() xmlVersion:2.08
+06-14 17:25:54.781	tUHM:GearRulesManager.savePrefDeviceContainerMap()
+06-14 17:25:54.782	tUHM:GearRulesManager.savePrefDevicePluginMap()
+06-14 17:25:54.783	tUHM:GearRulesManager.processRulesFile() savePreferences() isSuccess:true
+06-14 17:25:54.783	tUHM:UpdateChecker.onSyncComplete (2, true)
+06-14 17:25:54.783	tUHM:UpdateChecker.onSyncComplete mIsReadingRuleFile true)
+06-14 17:25:54.784	tUHM:UpdateChecker.makeCheckURL starts, type [UHM_PLUS_MODULE]
+06-14 17:25:54.784	tUHM:UpdateChecker.getSupportedPackageList()
+06-14 17:25:54.784	tUHM:GearRulesManager.getInstance()
+06-14 17:25:54.784	tUHM:UpdateChecker.makeCheckURL()-> supportedPackages = [com.samsung.android.gear1module, com.samsung.accessory.triathlonmgr, com.samsung.android.neckletplugin, com.samsung.accessory.beansmgr, com.samsung.android.gearoplugin, com.samsung.android.chironplugin, com.samsung.android.gearfit2plugin, com.samsung.android.gear2smodule]
+06-14 17:25:54.784	tUHM:UpdateChecker.isPackageInstalled(com.samsung.android.gear1module)
+06-14 17:25:54.785	tUHM:UpdateChecker.com.samsung.android.gear1module isEnable = false
+06-14 17:25:54.785	tUHM:UpdateChecker.isPackageInstalled(com.samsung.accessory.triathlonmgr)
+06-14 17:25:54.786	tUHM:UpdateChecker.com.samsung.accessory.triathlonmgr isEnable = false
+06-14 17:25:54.786	tUHM:UpdateChecker.isPackageInstalled(com.samsung.android.neckletplugin)
+06-14 17:25:54.787	tUHM:UpdateChecker.com.samsung.android.neckletplugin isEnable = false
+06-14 17:25:54.787	tUHM:UpdateChecker.isPackageInstalled(com.samsung.accessory.beansmgr)
+06-14 17:25:54.788	tUHM:UpdateChecker.com.samsung.accessory.beansmgr isEnable = false
+06-14 17:25:54.788	tUHM:UpdateChecker.isPackageInstalled(com.samsung.android.gearoplugin)
+06-14 17:25:54.789	tUHM:UpdateChecker.com.samsung.android.gearoplugin isEnable = false
+06-14 17:25:54.789	tUHM:UpdateChecker.isPackageInstalled(com.samsung.android.chironplugin)
+06-14 17:25:54.789	tUHM:UpdateChecker.com.samsung.android.chironplugin isEnable = false
+06-14 17:25:54.790	tUHM:UpdateChecker.isPackageInstalled(com.samsung.android.gearfit2plugin)
+06-14 17:25:54.790	tUHM:UpdateChecker.com.samsung.android.gearfit2plugin isEnable = false
+06-14 17:25:54.790	tUHM:UpdateChecker.isPackageInstalled(com.samsung.android.gear2smodule)
+06-14 17:25:54.792	tUHM:UpdateChecker.com.samsung.android.gear2smodule isEnable = false
+06-14 17:25:54.792	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.792	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.793	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:54.793	tUHM:HostManagerUtils. isSamsungDevice() MANUFACTURER :samsung return :true
+06-14 17:25:54.793	tUHM:UpdateChecker.isPackageInstalled(com.samsung.android.app.watchmanager)
+06-14 17:25:54.793	tUHM:UpdateChecker.com.samsung.android.app.watchmanager isEnable = true
+06-14 17:25:54.794	tUHM:UpdateChecker.VersionCode(com.samsung.android.app.watchmanager) = 2117113061
+06-14 17:25:54.794	tUHM:UpdateChecker.makeCheckURL, mInstalledPackageName [com.samsung.android.app.watchmanager@2117113061]
+06-14 17:25:54.794	tUHM:UpdateChecker.Sending MSG_RULE_FILE_READ_COMPLETED msg to checker
+06-14 17:25:54.795	tUHM:UpdateChecker.Rule file read successful.
+06-14 17:25:54.795	tUHM:GearRulesManager.onSyncComplete() cleanup
+06-14 17:25:54.813	UpdateChecker$CheckResponseHandler.handleMessage(), msg.what = 14
+06-14 17:25:54.813	UpdateChecker$CheckResponseHandler.got supported package list from MSC server. starting downland thread to check for update
+06-14 17:25:54.814	tUHM:UpdateDownloadThread.run()-->Start update thread...Request_Type = 1
+06-14 17:25:54.814	tUHM:UpdateDownloadThread.sendMessage(0, null)
+06-14 17:25:54.814	tUHM:UpdateDownloadThread.deleteModuleLogging starts
+06-14 17:25:54.816	tUHM:UpdateDownloadThread.deleteModuleLogging, res [false]
+06-14 17:25:54.816	tUHM:HostManagerUtils.isTestMode4Update()
+06-14 17:25:54.817	tUHM:HostManagerUtils.isTestMode4Update(): bIsTestMode = [false]
+06-14 17:25:54.817	tUHM:HostManagerUtils.getMCC()
+06-14 17:25:54.819	tUHM:HostManagerUtils. getMCC() networkOperator:72411
+06-14 17:25:54.820	tUHM:HostManagerUtils.getMNC()
+06-14 17:25:54.821	tUHM:HostManagerUtils. getMNC() networkOperator:72411
+06-14 17:25:54.821	tUHM:UpdateDownloadThread.mcc = HostManagerUtils.getMCC()-->724
+06-14 17:25:54.821	tUHM:UpdateDownloadThread.mnc = HostManagerUtils.getMNC()-->11
+06-14 17:25:54.821	tUHM:HostManagerUtils.getCSC()
+06-14 17:25:54.821	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.822	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.822	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:54.822	tUHM:HostManagerUtils. isSamsungDevice() MANUFACTURER :samsung return :true
+06-14 17:25:54.822	tUHM:HostManagerUtils.isCSCExistFile()
+06-14 17:25:54.824	tUHM:HostManagerUtils.getCSCVersion()
+06-14 17:25:54.826	tUHM:HostManagerUtils.getCSCVersion(), readedBytes [4]
+06-14 17:25:54.827	tUHM:UpdateDownloadThread.mcc = 724
+06-14 17:25:54.827	tUHM:UpdateDownloadThread.mnc = 11
+06-14 17:25:54.827	tUHM:UpdateDownloadThread.csc = ZTO
+06-14 17:25:54.827	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:54.827	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:54.828	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:54.828	tUHM:HostManagerUtils. isSamsungDevice() MANUFACTURER :samsung return :true
+06-14 17:25:54.829	tUHM:HostManagerUtils.getPD()
+06-14 17:25:54.829	tUHM:HostManagerUtils.isTestMode4Update()
+06-14 17:25:54.829	tUHM:HostManagerUtils.isTestMode4Update(): bIsTestMode = [false]
+06-14 17:25:54.830	tUHM:UpdateDownloadThread.Check url: https://vas.samsungapps.com/stub/stubUpdateCheck.as?appId=com.samsung.android.app.watchmanager@2117113061&deviceId=SM-G935F&mcc=724&mnc=11&csc=ZTO&sdkVer=24&pd=0
+06-14 17:25:54.830	tUHM:UpdateDownloadThread.checkUpdate(https://vas.samsungapps.com/stub/stubUpdateCheck.as?appId=com.samsung.android.app.watchmanager@2117113061&deviceId=SM-G935F&mcc=724&mnc=11&csc=ZTO&sdkVer=24&pd=0)
+06-14 17:25:54.880	UpdateChecker$CheckResponseHandler.handleMessage(), msg.what = 0
+06-14 17:25:54.880	UpdateChecker$CheckResponseHandler.Update check thread has been started, wait...
+06-14 17:25:55.870	tUHM:SetupWizardWelcomeActivity.onBackPressed
+06-14 17:25:55.871	tUHM:SetupWizardWelcomeActivity.getCurrentFragment() :LoadingGearFragment{e85760b #0 id=0x7f0b0029 tUHMFragment}
+06-14 17:25:55.871	tUHM:LoadingGearFragment.onBackPressed()
+06-14 17:25:56.965	tUHM:UpdateDownloadThread.getUpdateCheckResult(com.samsung.android.app.watchmanager, 1, 2.2.20.17113061)
+06-14 17:25:56.967	tUHM:UpdateDownloadThread.com.samsung.android.app.watchmanager: installed version = 2.2.20.17113061
+06-14 17:25:56.971	tUHM:UpdateDownloadThread.closeStream: java.io.BufferedInputStream@a921f01
+06-14 17:25:56.973	tUHM:UpdateDownloadThread.closeConnection: com.android.okhttp.internal.huc.HttpURLConnectionImpl:https://vas.samsungapps.com/stub/stubUpdateCheck.as?appId=com.samsung.android.app.watchmanager@2117113061&deviceId=SM-G935F&mcc=724&mnc=11&csc=ZTO&sdkVer=24&pd=0
+06-14 17:25:56.975	tUHM:UpdateDownloadThread.Update check was successful.
+06-14 17:25:56.977	tUHM:UpdateDownloadThread.Clearing Update request type result on successful server response.
+06-14 17:25:56.989	tUHM:UpdateDownloadThread.debug, packageList [null]
+06-14 17:25:56.990	tUHM:UpdateDownloadThread.nullAndVoidHandler(null)
+06-14 17:25:56.992	tUHM:UpdateDownloadThread.Requested operation can't be carried out on null handler.
+06-14 17:25:56.993	tUHM:UpdateDownloadThread.sendMessage(8, null)
+06-14 17:25:56.998	UpdateChecker$CheckResponseHandler.handleMessage(), msg.what = 8
+06-14 17:25:57.000	UpdateChecker$CheckResponseHandler.Update check thread completed it's task.
+06-14 17:25:57.003	UpdateChecker$CheckResponseHandler.Sending message to SetupWizardWelcomeActivity : REQUEST_TYPE_UPDATE_CHECK_COMPLETE
+06-14 17:25:57.004	tUHM:UpdateChecker.emptyUpdateList()
+06-14 17:25:57.006	tUHM:UpdateChecker.nullAndVoidHandler()
+06-14 17:25:57.015	tUHM:UpdateManager:UpdateManager$UpdateCheckResponseHandler.handleMessage(), msg.what = 2
+06-14 17:25:57.017	tUHM:UpdateManager:UpdateManager$UpdateCheckResponseHandler.[No response came from server] / [time-out] / [connection failed] / [do nothing on no update available]; continue with app launch.
+06-14 17:25:57.018	tUHM:UpdateUtil.setIsNotifiedFlag(com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661, true)
+06-14 17:25:57.020	tUHM:UpdateManager:UpdateManager$UpdateCheckResponseHandler.Calling init()...Time-out condition-->false
+06-14 17:25:57.022	tUHM:SetupWizardWelcomeActivity.onComplete
+06-14 17:25:57.023	tUHM:SetupWizardWelcomeActivity.checkLaunchFromStub, isFromStubByNFC [false] and isFromWearableInstaller [false]
+06-14 17:25:57.025	tUHM:SetupWizardWelcomeActivity.checkLaunchFromStub, res [false]
+06-14 17:25:57.026	tUHM:SetupWizardWelcomeActivity.doActionsAfterUpdate, classname = null
+06-14 17:25:57.028	tUHM:SetupWizardWelcomeActivity.startLastLaunchedPlugin called
+06-14 17:25:57.030	tUHM:SetupWizardWelcomeActivity.getAllDeviceRegistryData()
+06-14 17:25:57.031	tUHM:SetupWizardWelcomeActivity.sendUpdateDBRequestIntent()
+06-14 17:25:57.034	tUHM:SetupWizardWelcomeActivity.showIntroFragment()
+06-14 17:25:57.036	tUHM:SetupWizardWelcomeActivity.updateFragment() fragmentType:2 bundle:Bundle[{}], forceSet:false
+06-14 17:25:57.037	tUHM:SetupWizardWelcomeActivity.getCurrentFragment() :LoadingGearFragment{e85760b #0 id=0x7f0b0029 tUHMFragment}
+06-14 17:25:57.039	tUHM:SetupWizardWelcomeActivity.launching device list from setup wizard
+06-14 17:25:57.041	tUHM:SetupWizardWelcomeActivity.send data to fragment
+06-14 17:25:57.043	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:57.045	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:57.048	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:57.049	tUHM:HostManagerUtils. isSamsungDevice() MANUFACTURER :samsung return :true
+06-14 17:25:57.050	tUHM:PromotionFragment.selected configuration : sw360dp
+06-14 17:25:57.053	tUHM:PromotionFragment.onCreateView
+06-14 17:25:57.087	tUHM:UIUtils.getWindowHeight() return:1920
+06-14 17:25:57.089	tUHM:PromotionFragment.onCreateView() headerHeight : 348 touchableHeight : 960
+06-14 17:25:57.095	tUHM:HostManagerUtils.isExistPackage:com.samsung.android.voc return: true
+06-14 17:25:57.096	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:57.097	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:57.101	tUHM:InstallationUtils.getVersionCode() packageName:com.samsung.android.voc returns 246102100
+06-14 17:25:57.102	tUHM:PromotionFragment.contact us must launch application [true]
+06-14 17:25:57.105	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:57.107	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:57.109	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:57.110	tUHM:HostManagerUtils. isSamsungDevice() MANUFACTURER :samsung return :true
+06-14 17:25:57.117	tUHM:PromotionFragment.onViewCreated()
+06-14 17:25:57.120	tUHM:PermissionFragment.verifyPermissions starts, activity [com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661], task [com.samsung.android.app.watchmanager.setupwizard.PromotionFragment$3@e914f7e], permissions [[android.permission.ACCESS_FINE_LOCATION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PHONE_STATE, android.permission.GET_ACCOUNTS]]
+06-14 17:25:57.122	tUHM:HostManagerUtils.isExistPackage:com.samsung.android.gear1module return: false
+06-14 17:25:57.125	tUHM:HostManagerUtils.isExistPackage:com.samsung.android.gear2smodule return: false
+06-14 17:25:57.127	tUHM:HostManagerUtils.isExistPackage:com.samsung.android.gearfit2plugin return: false
+06-14 17:25:57.130	tUHM:HostManagerUtils.isExistPackage:com.samsung.android.gearoplugin return: false
+06-14 17:25:57.132	tUHM:PermissionFragment.verifyPermissions, permission [android.permission.ACCESS_FINE_LOCATION] has value [true], entire granted [true]
+06-14 17:25:57.134	tUHM:PermissionFragment.verifyPermissions, permission [android.permission.WRITE_EXTERNAL_STORAGE] has value [true], entire granted [true]
+06-14 17:25:57.136	tUHM:PermissionFragment.verifyPermissions, permission [android.permission.READ_PHONE_STATE] has value [false], entire granted [false]
+06-14 17:25:57.139	tUHM:PermissionFragment.verifyPermissions, permission [android.permission.GET_ACCOUNTS] has value [false], entire granted [false]
+06-14 17:25:57.140	tUHM:PermissionFragment.verifyPermissions ends
+06-14 17:25:57.151	BackgroundFragment.onViewCreated()
+06-14 17:25:57.152	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:57.153	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:57.153	ResourceRulesManager.isResourceInfoAvailable() result : false
+06-14 17:25:57.154	ResourceRulesManager.syncGearInfo ()  syncType : 1
+06-14 17:25:57.154	ResourceRulesManager.syncGearInfo () init syncHandlerThread
+06-14 17:25:57.156	ResourceRulesManager.syncGearInfo () post ... syncRequestCount : 1
+06-14 17:25:57.157	tUHM:GearRulesManager.getInstance()
+06-14 17:25:57.158	ResourceRulesManager.isResourceInfoAvailable() result : false
+06-14 17:25:57.158	tUHM:PickGearFragment.onCreateView() starts
+06-14 17:25:57.159	ResourceRulesManager.syncHandler.post() start to sync ... synced : false
+06-14 17:25:57.159	ResourceRulesManager.syncFromLocal() start the local sync
+06-14 17:25:57.160	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:57.160	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:57.162	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:57.163	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:57.164	ResourceRulesManager.syncFromLocal() resource rule file doesn't exist in the download folder
+06-14 17:25:57.164	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:57.165	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:57.167	ResourceRulesManager.isResourceInfoAvailable() result : false
+06-14 17:25:57.167	ResourceRulesManager.processRulesFile() starts
+06-14 17:25:57.168	ResourceRulesParser.getAllResourceInfo() starts
+06-14 17:25:57.169	ResourceRulesParser.getAllResourceInfo() data is empty, start to parse rules
+06-14 17:25:57.169	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:57.170	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:57.171	ResourceRulesParser.B> info.aliasName:Gear S3 Frontier\nGear S3 Classic
+06-14 17:25:57.172	ResourceRulesParser.A> info.aliasName:Gear S3 Frontier
+Gear S3 Classic
+06-14 17:25:57.172	ResourceRulesParser.B> info.aliasName:Gear Fit2 Pro\nGear Fit2
+06-14 17:25:57.173	ResourceRulesParser.A> info.aliasName:Gear Fit2 Pro
+Gear Fit2
+06-14 17:25:57.173	ResourceRulesParser.B> info.aliasName:Gear Sport
+06-14 17:25:57.174	ResourceRulesParser.A> info.aliasName:Gear Sport
+06-14 17:25:57.175	ResourceRulesParser.mGroupInfoList : [GroupInfo{name='Gear S3', aliasName='Gear S3 Frontier
+Gear S3 Classic', displayOrder=2, images={background=ImageInfo{name='gear_welcom_bg_gears3.png', attributes={height=2076, type=background, ySlideValue=855}}, header=ImageInfo{name='select_divice_bg_gears3.png', attributes={type=header}}, icon=ImageInfo{name='select_divice_img_s3.png', attributes={type=icon}}}}, GroupInfo{name='Gear Fit2', aliasName='Gear Fit2 Pro
+Gear Fit2', displayOrder=3, images={background=ImageInfo{name='gear_welcom_bg_fit2.png', attributes={height=2076, type=background, ySlideValue=1254}}, header=ImageInfo{name='select_divice_bg_fit2.png', attributes={type=header}}, icon=ImageInfo{name='select_divice_img_fit2.png', attributes={type=icon}}}}, GroupInfo{name='Gear IconX', aliasName='null', displayOrder=4, images={background=ImageInfo{name='gear_welcom_bg_iconx.png', attributes={height=2076, type=background, ySlideValue=576}}, header=ImageInfo{name='select_divice_bg_iconx.png', attributes={type=header}}, icon=ImageInfo{name='select_divice_img_iconx.png', attributes={type=icon}}}}, GroupInfo{name='Gear Sport', aliasName='Gear Sport', displayOrder=1, images={background=ImageInfo{name='gear_welcom_bg_sport.png', attributes={height=2076, type=background, ySlideValue=1116}}, header=ImageInfo{name='select_divice_bg_sport.png', attributes={type=header}}, icon=ImageInfo{name='select_divice_img_sport.png', attributes={type=icon}}}}]
+06-14 17:25:57.176	ResourceRulesParser.mGroupInfoList (after sorting) : [GroupInfo{name='Gear Sport', aliasName='Gear Sport', displayOrder=1, images={background=ImageInfo{name='gear_welcom_bg_sport.png', attributes={height=2076, type=background, ySlideValue=1116}}, header=ImageInfo{name='select_divice_bg_sport.png', attributes={type=header}}, icon=ImageInfo{name='select_divice_img_sport.png', attributes={type=icon}}}}, GroupInfo{name='Gear S3', aliasName='Gear S3 Frontier
+Gear S3 Classic', displayOrder=2, images={background=ImageInfo{name='gear_welcom_bg_gears3.png', attributes={height=2076, type=background, ySlideValue=855}}, header=ImageInfo{name='select_divice_bg_gears3.png', attributes={type=header}}, icon=ImageInfo{name='select_divice_img_s3.png', attributes={type=icon}}}}, GroupInfo{name='Gear Fit2', aliasName='Gear Fit2 Pro
+Gear Fit2', displayOrder=3, images={background=ImageInfo{name='gear_welcom_bg_fit2.png', attributes={height=2076, type=background, ySlideValue=1254}}, header=ImageInfo{name='select_divice_bg_fit2.png', attributes={type=header}}, icon=ImageInfo{name='select_divice_img_fit2.png', attributes={type=icon}}}}, GroupInfo{name='Gear IconX', aliasName='null', displayOrder=4, images={background=ImageInfo{name='gear_welcom_bg_iconx.png', attributes={height=2076, type=background, ySlideValue=576}}, header=ImageInfo{name='select_divice_bg_iconx.png', attributes={type=header}}, icon=ImageInfo{name='select_divice_img_iconx.png', attributes={type=icon}}}}]
+06-14 17:25:57.177	ResourceRulesManager.onSyncComplete() starts, isSuccess : true
+06-14 17:25:57.178	tUHM:PickGearFragment.onViewCreated()
+06-14 17:25:57.178	ResourceRulesManager.isResourceInfoAvailable() result : true
+06-14 17:25:57.178	tUHM:PickGearFragment.initGearIconList() starts ... 
+06-14 17:25:57.179	ResourceRulesManager.isResourceInfoAvailable() result : true
+06-14 17:25:57.179	ResourceRulesParser.getAllResourceInfo() starts
+06-14 17:25:57.179	tUHM:PromotionFragment.onStart
+06-14 17:25:57.184	tUHM:PermissionFragment.onAttach()
+06-14 17:25:57.184	tUHM:PermissionFragment.onCreate
+06-14 17:25:57.185	tUHM:PermissionFragment.onCreate, activity [com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661], task [com.samsung.android.app.watchmanager.setupwizard.PromotionFragment$3@e914f7e], permissions [[android.permission.ACCESS_FINE_LOCATION, android.permission.WRITE_EXTERNAL_STORAGE, android.permission.READ_PHONE_STATE, android.permission.GET_ACCOUNTS]]
+06-14 17:25:57.185	tUHM:PermissionFragment.requestPermission()
+06-14 17:25:57.190	tUHM:PermissionUtils.getRequestCode() permission:android.permission.READ_PHONE_STATE
+06-14 17:25:57.190	tUHM:PermissionUtils.getRequestCode() permission:android.permission.READ_PHONE_STATE return:5005
+06-14 17:25:57.191	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:57.191	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:57.192	tUHM:PermissionUtils.isNeverShowEnabled()  requestCodeUniqueIdentifier:5005 result:false
+06-14 17:25:57.194	tUHM:PermissionUtils.getRequestCode() permission:android.permission.GET_ACCOUNTS
+06-14 17:25:57.194	tUHM:PermissionUtils.getRequestCode() permission:android.permission.GET_ACCOUNTS return:5006
+06-14 17:25:57.194	tUHM:TWatchManagerApplication.getAppContext()
+06-14 17:25:57.195	tUHM:TWatchManagerApplication.mAppContext = com.samsung.android.app.twatchmanager.TWatchManagerApplication@519f66b
+06-14 17:25:57.195	tUHM:PermissionUtils.isNeverShowEnabled()  requestCodeUniqueIdentifier:5006 result:false
+06-14 17:25:57.195	tUHM:PermissionFragment.requestPermission() settingsPermissions:null
+06-14 17:25:57.195	tUHM:PermissionFragment.requestPermission() normalPermissions:[android.permission.READ_PHONE_STATE, android.permission.GET_ACCOUNTS]
+06-14 17:25:57.240	tUHM:UpdateTimer.setTimer starts
+06-14 17:25:57.241	tUHM:InstallationUtils.hasInstallPermission() return:true
+06-14 17:25:57.241	tUHM:InstallationUtils.isInstallFromPlaystore()  return :false
+06-14 17:25:57.242	tUHM:RegistryDbManagerWithProvider.queryAllDeviceRegistryData:
+06-14 17:25:57.255	tUHM:RegistryDbManagerWithProvider.queryAllDeviceRegistryData, size = 0
+06-14 17:25:57.255	tUHM:UpdateTimer.existWearable [false]
+06-14 17:25:57.255	tUHM:UpdateTimer.updatable could not set timer because DB is empty
+06-14 17:25:57.256	tUHM:UpdateTimer.updatable res [false]
+06-14 17:25:57.256	tUHM:UpdateTimer.setTimer ends
+06-14 17:25:57.264	RecyclerViewAdapter.onBindViewHolder() image info : ImageInfo{name='select_divice_img_sport.png', attributes={type=icon}}
+06-14 17:25:57.264	tUHM:UIUtils.getDrawableIdFromFileName() starts, fileName : select_divice_img_sport.png
+06-14 17:25:57.264	tUHM:ResourceLoader.getDrawableId [select_divice_img_sport]
+06-14 17:25:57.265	RecyclerViewAdapter.onBindViewHolder() resId:2130837554 name : select_divice_img_sport.png
+06-14 17:25:57.274	RecyclerViewAdapter.onBindViewHolder() image info : ImageInfo{name='select_divice_img_s3.png', attributes={type=icon}}
+06-14 17:25:57.275	tUHM:UIUtils.getDrawableIdFromFileName() starts, fileName : select_divice_img_s3.png
+06-14 17:25:57.275	tUHM:ResourceLoader.getDrawableId [select_divice_img_s3]
+06-14 17:25:57.276	RecyclerViewAdapter.onBindViewHolder() resId:2130837553 name : select_divice_img_s3.png
+06-14 17:25:57.288	RecyclerViewAdapter.onBindViewHolder() image info : ImageInfo{name='select_divice_img_fit2.png', attributes={type=icon}}
+06-14 17:25:57.288	tUHM:UIUtils.getDrawableIdFromFileName() starts, fileName : select_divice_img_fit2.png
+06-14 17:25:57.288	tUHM:ResourceLoader.getDrawableId [select_divice_img_fit2]
+06-14 17:25:57.289	RecyclerViewAdapter.onBindViewHolder() resId:2130837551 name : select_divice_img_fit2.png
+06-14 17:25:57.298	RecyclerViewAdapter.onBindViewHolder() image info : ImageInfo{name='select_divice_img_iconx.png', attributes={type=icon}}
+06-14 17:25:57.299	tUHM:UIUtils.getDrawableIdFromFileName() starts, fileName : select_divice_img_iconx.png
+06-14 17:25:57.300	tUHM:ResourceLoader.getDrawableId [select_divice_img_iconx]
+06-14 17:25:57.300	RecyclerViewAdapter.onBindViewHolder() resId:2130837552 name : select_divice_img_iconx.png
+06-14 17:25:57.318	tUHM:PickGearFragment.making recycler view scrollable
+06-14 17:25:57.327	ResourceRulesManager.isResourceInfoAvailable() result : true
+06-14 17:25:57.328	tUHM:UIUtils.getDrawableIdFromFileName() starts, fileName : gear_welcom_bg_sport.png
+06-14 17:25:57.329	tUHM:ResourceLoader.getDrawableId [gear_welcom_bg_sport]
+06-14 17:25:57.365	tUHM:UIUtils.getDrawableIdFromFileName() starts, fileName : gear_welcom_bg_gears3.png
+06-14 17:25:57.366	tUHM:ResourceLoader.getDrawableId [gear_welcom_bg_gears3]
+06-14 17:25:57.396	tUHM:UIUtils.getDrawableIdFromFileName() starts, fileName : gear_welcom_bg_fit2.png
+06-14 17:25:57.397	tUHM:ResourceLoader.getDrawableId [gear_welcom_bg_fit2]
+06-14 17:25:57.464	tUHM:UIUtils.getDrawableIdFromFileName() starts, fileName : gear_welcom_bg_iconx.png
+06-14 17:25:57.465	tUHM:ResourceLoader.getDrawableId [gear_welcom_bg_iconx]
+06-14 17:25:57.536	tUHM:SetupWizardWelcomeActivity.onPause
+06-14 17:26:03.536	tUHM:PermissionFragment.onRequestPermissionsResult()
+06-14 17:26:03.538	tUHM:PermissionFragment.onRequestPermissionsResult() permission:android.permission.READ_PHONE_STATE grant value:-1
+06-14 17:26:03.540	tUHM:PermissionFragment.onRequestPermissionsResult() permission:android.permission.GET_ACCOUNTS grant value:-1
+06-14 17:26:03.576	tUHM:PermissionFragment.finishFragment, mActivity [com.samsung.android.app.watchmanager.setupwizard.SetupWizardWelcomeActivity@f748661]
+06-14 17:26:03.651	tUHM:PermissionFragment.onDestroy
+06-14 17:26:03.653	tUHM:PermissionFragment.onDetach()
+06-14 17:26:03.666	tUHM:PickGearFragment.reset()
+06-14 17:26:03.668	tUHM:PickGearFragment.Easy pairing was already stopped
+06-14 17:26:03.669	tUHM:PickGearFragment.dismissScanningProgress() starts...
+06-14 17:26:03.673	tUHM:PromotionFragment.onStop
+06-14 17:26:03.678	tUHM:SetupWizardWelcomeActivity.onStop
+06-14 17:26:03.689	tUHM:PickGearFragment.onDestroy() starts
+06-14 17:26:03.691	tUHM:PickGearFragment.Easy pairing was already stopped
+06-14 17:26:03.692	tUHM:PickGearFragment.dismissScanningProgress() starts...
+06-14 17:26:03.694	tUHM:PromotionFragment.onDestroy
+06-14 17:26:03.775	tUHM:SetupWizardWelcomeActivity.UHM onDestroy
+06-14 17:26:03.777	tUHM:HostManagerUtils.displaying Toast [-UHM destroyed-]
+06-14 17:26:03.778	tUHM:UpdateManager.UpdateCheckResponseHandler instance is null.
+06-14 17:26:03.779	tUHM:WearableDeviceController.destroy starts
+06-14 17:26:03.780	tUHM:WearableDeviceController.IllegalArgumentException(mReceiver)java.lang.IllegalArgumentException: Receiver not registered: com.samsung.android.app.watchmanager.setupwizard.WearableDeviceController$1@a850fdb
+06-14 17:26:03.781	tUHM:WearableDeviceController.destroy ends
